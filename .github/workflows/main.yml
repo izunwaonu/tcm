@@ -1,0 +1,29 @@
+on:
+push:
+branches:
+- main
+name: TCM
+jobs:
+web-deploy:
+name: Deploy
+runs-on: ubuntu-latest
+steps:
+- name: Get latest code
+uses: actions/checkout@v3
+-name: Install Node.js
+uses: actions/setup-node@v3
+with:
+node-version: 18.x
+- name: Install NPM packages
+run: npm install
+- name: Built project
+run: npm run build
+- name: Sync files
+uses: SamKirtland/FTP-Deploy-Action-Action@v4.3.4
+with:
+server: ftp.tcm-teska.com
+username: ${{ secrets.ftp_username}}
+password: ${{ secrets.ftp_password}}
+local-dir: ./dist/
+
+na
