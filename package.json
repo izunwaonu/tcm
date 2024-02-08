@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://izunwaonu.github.io/tcm/",
+  "homepage": "https://tcm-teska.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
