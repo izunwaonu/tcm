@@ -1,60 +1,74 @@
-import React, { useState, useEffect } from 'react'
-import Slider01 from "../assets/slider01.png"
-import Slider02 from "../assets/slider02.png"
-import Slider03 from "../assets/slider03.png"
-import FirstHero from './FirstHero'
-import styles from '../style'
-import HomeSlider from './HomeSlider'
+import React from 'react'
+import { TECarousel, TECarouselItem } from "tw-elements-react";
+import TCM1 from "../assets/tcm1.png";
+import TCM2 from "../assets/tcm33.png";
+import TCM3 from "../assets/tcm22.png";
+import TCM4 from "../assets/tcm4.jpg";
+
+
+
 
 const Slider = () => {
-    const images =[
-        Slider01,
-        Slider02,
-        Slider03
-    ]
-
-const [backgroundImage, setBackgroundImage] = useState(images[0])
-
-useEffect(() => {
-    let currentIndex = 0;
-
-   const changeBackgroundImage = () => {
-        currentIndex = (currentIndex + 1) % images.length;
-        setBackgroundImage(images[currentIndex])
-       
-    }
-    const interval = setInterval(changeBackgroundImage,1000)
-        return()=>{
-            clearInterval(interval);
-        }
-})
+    
 
   return (
-    <>
-     <section className={`${styles.flexCenter} bg-fixed bg-cover bg-center backdrop-brightness-50`} style={{backgroundImage:`url(${backgroundImage})`, transition:'1s'}}>
-    <div className={`${styles.flexCenter} flex-wrap w-full`}>
-        
-        <div>
-        
+    <div className="mb-4">
+      <TECarousel showControls showIndicators ride="carousel">
+        <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+          <TECarouselItem
+            itemID={1}
+            className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          >
+            <img
+              src={TCM2}
+              className="block w-full"
+              alt="..."
+            />
+            <div className="absolute inset-x-[15%] bottom-5 py-5 text-center text-white md:block">
+              <h5 className="text-xl">TESKA C. MERCHANDISE CO.LTD</h5>
+              <p>
+              ..leading importer of motorcycle parts and general merchandise.
+              </p>
+            </div>
+          </TECarouselItem>
+          <TECarouselItem
+            itemID={2}
+            className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          >
+            <img
+             src={TCM3}
+              className="block w-full"
+              alt="..."
+            />
+            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+              <h5 className="text-xl">Second slide label</h5>
+              <p>
+              ...leading importer of motorcycle parts and general merchandise.
+              </p>
+            </div>
+          </TECarouselItem>
+          <TECarouselItem
+            itemID={3}
+            className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          >
+            <img
+              src={TCM4}
+              className="block w-full"
+              alt="..."
+            />
+            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+              <h5 className="text-xl">Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </TECarouselItem>
         </div>
-      {/* {clients.map((client) => (
-        <div key={client.id} className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px] m-5`}>
-          <img src={client.logo} alt="client_logo" className="sm:w-[192px] w-[100px] object-contain" />
-        </div>
-      ))} */}
-    </div>
-  </section>
+      </TECarousel>
+  
 
-    {/* <div className='' 
-    >
-        <div className='my-4 flex items-center flex-row flex-wrap sm:mb-20 mb-6'>
-            
-
-        
-
-        </div>
-    </div> */}
-    </>
+    
+     </div>
   )
 }
 

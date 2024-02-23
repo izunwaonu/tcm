@@ -4,28 +4,43 @@ import HeroTwo from "./components/HeroTwo";
 import Slider from "./components/Slider";
 import Locations from "./components/Locations";
 import HomeSlider from "./components/HomeSlider";
+import NavBarMain from "./components/NavBarMain";
+import HeroMain from "./components/HeroMain";
+import Vision from "./components/Vision";
 
 const App = () => (
-  <div className="bg-white w-full overflow-hidden">
+  
+  <div className="bg-white w-full overflow-hidden">  
     <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
-        <Navbar />
+      <NavBarMain/> 
+        {/* <Navbar /> */}
       </div>
     </div>
     <div className={`${styles.paddingX} ${styles.flexCenter} bg-white`}>
       <div className={`${styles.boxWidth}`}>
-        <HomeSlider/>
+        <Slider/>
+        
+        {/* <HeroMain/> */}
+        
+       
+        {/* <HomeSlider/> */}
       </div>
     </div>
-    <Slider/>
+  
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+      <Vision/>
+      </div>
+    </div>
     
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Locations/>
