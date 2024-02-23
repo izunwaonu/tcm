@@ -5,7 +5,7 @@ initTE({ Collapse, Ripple });
 const Vision = () => {
     
   return (
-    <div className=" mb-2">
+    <div className=" \mb-2">
     
     
 <a
