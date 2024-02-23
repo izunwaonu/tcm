@@ -12,7 +12,7 @@ const Slider = () => {
     
 
   return (
-    <div className="mb-4">
+    <div className="mb-4 mt-2">
       <TECarousel showControls showIndicators ride="carousel">
         <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
           <TECarouselItem
