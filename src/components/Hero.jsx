@@ -28,13 +28,18 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
           Experience
         </h1>
-        {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        
-        </p> */}
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        Teska C. Merchandise Co., Ltd is a leading importer 
+        of motorcycle parts and general mechandise. Our goal 
+        at TCM is to maintain long-lasting relationshps with 
+        our customers based on exceptional customer service 
+        and cost-effective solutions 
+        that meet and exceed our customer's expectations. We look forward to serving you.
+        </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={Log} alt="" className="w-[80%] h-[80%] relative z-[5]" />
+        <img src={Log} alt="" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

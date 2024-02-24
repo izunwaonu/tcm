@@ -11,13 +11,13 @@ import Vision from "./components/Vision";
 const App = () => (
   
   <div className="bg-white w-full overflow-hidden">  
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-white`}>
       <div className={`${styles.boxWidth}`}>
       <NavBarMain/> 
         {/* <Navbar /> */}
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-white`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
         <Slider/>
         
@@ -40,7 +40,7 @@ const App = () => (
       </div>
     </div>
     
-    <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Locations/>
