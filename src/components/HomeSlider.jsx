@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Slider1 from "../assets/Slide1.png";
+// import Slider1 from "../assets/Slide1.png";
 import Slider2 from "../assets/Slide2.png";
 import Slider3 from "../assets/Slide3.png";
 
