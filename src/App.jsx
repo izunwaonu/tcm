@@ -3,10 +3,11 @@ import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testi
 import HeroTwo from "./components/HeroTwo";
 import Slider from "./components/Slider";
 import Locations from "./components/Locations";
-import HomeSlider from "./components/HomeSlider";
+// import HomeSlider from "./components/HomeSlider";
 import NavBarMain from "./components/NavBarMain";
 import HeroMain from "./components/HeroMain";
 import Vision from "./components/Vision";
+import ProductHome from "./components/ProductHome";
 
 const App = () => (
   
@@ -19,12 +20,8 @@ const App = () => (
     </div>
     <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
-        <Slider/>
-        
-        {/* <HeroMain/> */}
-        
-       
-        {/* <HomeSlider/> */}
+        <Slider/>  
+        <ProductHome/>
       </div>
     </div>
   
