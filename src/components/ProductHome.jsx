@@ -1,6 +1,6 @@
 import React from 'react';
 import Product2 from '../assets/product2.png';
-// import Product2n2 from '../assets/product2n2.png';
+import Product2n2 from '../assets/product2n2.png';
 
 const ProductHome = () => {
   return (
@@ -19,7 +19,7 @@ const ProductHome = () => {
     <a href="#!">
       <img
         class="rounded-t-lg"
-        src={Product2}
+        src={Product2n2}
         alt="Hollywood Sign on The Hill" />
     </a>
    </div>
