@@ -11,8 +11,16 @@ import Product05 from '../assets/5.png';
 const ProductHome = () => {
   return (
     <>
-    
-<div class="grid-cols-1 sm:grid md:grid-cols-2 ">
+    <div className="p-4">
+    <h2 className=" text-white text-4xl font-medium leading-tight">
+    Shop Our 
+  <span
+    className="inline-block whitespace-nowrap rounded-[0.27rem] bg-yellow-300 px-[0.65em] pb-[0.25em] pt-[0.35em] ml-3 text-center align-baseline text-[0.75em] font-bold leading-none text-primary-700"
+    >Products 
+    </span>
+</h2>
+    </div>
+<div className="grid-cols-1 sm:grid md:grid-cols-2 ">
   <div
     class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
    <div className="flex gap-4 p-4">
@@ -45,12 +53,12 @@ const ProductHome = () => {
     </div>
   </div>
   <div
-    class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="#!">
     <div className="flex gap-4 p-4">
    <a href="#!"> 
       <img
-        class="rounded-t-lg"
+        className="rounded-t-lg"
         src={Product3}
         alt="" />
     </a>
@@ -62,12 +70,12 @@ const ProductHome = () => {
     </a>
    </div>
     </a>
-    <div class="p-6">
+    <div className="p-6">
       <h5
-        class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+        className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
         TIMING CHAIN
       </h5>
-      <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+      <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
       Made of high quality , very durable, Good wear resistance
       100% Cam Timing Chain. Easy to use
       Exquisite Workmanship.
@@ -85,7 +93,7 @@ const ProductHome = () => {
     <div className="flex gap-4 p-4">
    <a href="#!"> 
       <img
-        class="rounded-t-lg"
+        className="rounded-t-lg"
         src={Product4}
         alt="" />
     </a>
@@ -97,12 +105,12 @@ const ProductHome = () => {
     </a>
    </div>
     </a>
-    <div class="p-6">
+    <div className="p-6">
       <h5
-        class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+        className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
         MOTOR OIL
       </h5>
-      <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+      <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
       Advanced Full Synthetic Motor Oil. Helps prevent deposits and sludge build-up to enable long engine life.
       Excellent overall lubrication and  unsurpassed wear protection performance for many driving styles.
       Outstanding performance during the maximum oil change interval recommended in a vehicle's owners manual.
@@ -113,12 +121,12 @@ const ProductHome = () => {
     </div>
   </div>
   <div
-    class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="#!">
     <div className="flex gap-4 p-4">
    <a href="#!"> 
       <img
-        class="rounded-t-lg"
+        className="rounded-t-lg"
         src={Product5}
         alt="" />
     </a>
@@ -130,12 +138,12 @@ const ProductHome = () => {
     </a>
    </div>
     </a>
-    <div class="p-6">
+    <div className="p-6">
       <h5
         class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
         MOTORCYCLE TIRE
       </h5>
-      <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+      <p className="mb-4 text-sm sm:text-base text-neutral-600 dark:text-neutral-200  ">
       STREET TIRE TREADS OF SUPERIOR QUALITY - Providing a harmonious blend of 
       traction and control while maintaining longevity. The tread design is crucial, 
       particularly for rear motorcycle tires. A sufficiently sticky tread compound delivers
@@ -147,6 +155,11 @@ const ProductHome = () => {
     </div>
   </div>
 </div>
+<button
+    className="p-4 text-lg text-white bg-yellow-600 m-4 rounded-sm hover:bg-white hover:text-yellow-600"
+    >
+      View All Products 
+  </button>
     </>
   )
 }
