@@ -42,7 +42,7 @@ const ProductHome = () => {
         className="mb-2 text-bold text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
         CARBURATOR
       </h1>
-      <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200 ">
+      <p className="mb-4 text-sm sm:text-base text-neutral-600 dark:text-neutral-200 ">
       Easy to use, more worry-free, and energy-saving!
       Lesser noise with zero smoking. 
       LPG is a clean gas you won't need to change your generator's 
@@ -110,7 +110,7 @@ const ProductHome = () => {
         className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
         MOTOR OIL
       </h5>
-      <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+      <p className="mb-4 text-sm sm:text-base text-neutral-600 dark:text-neutral-200">
       Advanced Full Synthetic Motor Oil. Helps prevent deposits and sludge build-up to enable long engine life.
       Excellent overall lubrication and  unsurpassed wear protection performance for many driving styles.
       Outstanding performance during the maximum oil change interval recommended in a vehicle's owners manual.
@@ -156,7 +156,7 @@ const ProductHome = () => {
   </div>
 </div>
 <button
-    className="p-4 text-lg text-white bg-yellow-600 m-4 rounded-sm hover:bg-white hover:text-yellow-600"
+    className="p-4 text-sm sm:text-lg text-white bg-yellow-600 m-4 rounded-sm hover:bg-white hover:text-yellow-600"
     >
       View All Products 
   </button>
