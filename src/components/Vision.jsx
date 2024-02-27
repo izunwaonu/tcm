@@ -4,6 +4,7 @@ import {Collapse, Ripple, initTE,} from "tw-elements";
 
 const Vision = () => {
   initTE({ Collapse, Ripple });
+  
     
   return (
 //     <div className=" \mb-2">

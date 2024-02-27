@@ -34,7 +34,7 @@ const ProductHome = () => {
       <img
         className="rounded-t-lg bg-gray-400"
         src={Product02}
-        alt="Hollywood Sign on The Hill" />
+        alt="" />
     </a>
    </div>
     <div className="p-6">
@@ -75,7 +75,7 @@ const ProductHome = () => {
         className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
         TIMING CHAIN
       </h5>
-      <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+      <p className="mb-4 text-sm sm:text-base text-neutral-600 dark:text-neutral-200">
       Made of high quality , very durable, Good wear resistance
       100% Cam Timing Chain. Easy to use
       Exquisite Workmanship.
@@ -101,7 +101,7 @@ const ProductHome = () => {
       <img
         className="rounded-t-lg bg-gray-400"
         src={Product04}
-        alt="Hollywood Sign on The Hill" />
+        alt="" />
     </a>
    </div>
     </a>
@@ -134,7 +134,7 @@ const ProductHome = () => {
       <img
         className="rounded-t-lg bg-gray-400"
         src={Product05}
-        alt="Hollywood Sign on The Hill" />
+        alt="" />
     </a>
    </div>
     </a>

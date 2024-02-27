@@ -25,7 +25,7 @@ const Slider = () => {
               alt="..."
             />
             <div className="absolute inset-x-[15%] bottom-5 py-5 text-center text-white md:block">
-              <h5 className="text-xl">TESKA C. MERCHANDISE CO.LTD</h5>
+              <h5 className="  p-0 sm:p-4 sm:m-1 m-2 sm:text-xl text-sm "> <span className='bg-yellow-600 p-4 rounded-xl'>TESKA C.</span> MERCHANDISE CO.LTD</h5>
               <p>
               ..leading importer of motorcycle parts and general merchandise.
               </p>
