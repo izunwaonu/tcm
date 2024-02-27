@@ -6,7 +6,7 @@ import Product03 from '../assets/product3.png';
 import Product4 from '../assets/product4.png';
 import Product04 from '../assets/4.png';
 import Product5 from '../assets/product5.png';
-import Product05 from '../assets/5.png';
+import Product05 from '../assets/5.png'; 
 
 const ProductHome = () => {
   return (
