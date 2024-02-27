@@ -15,7 +15,7 @@ const ProductHome = () => {
     <h2 className=" text-white text-4xl font-medium leading-tight">
     Shop Our 
   <span
-    className="inline-block whitespace-nowrap rounded-[0.27rem] bg-yellow-300 px-[0.65em] pb-[0.25em] pt-[0.35em] ml-3 text-center align-baseline text-[0.75em] font-bold leading-none text-primary-700"
+    className="inline-block whitespace-nowrap rounded-[0.27rem] bg-yellow-600 px-[0.65em] pb-[0.25em] pt-[0.35em] ml-3 text-center align-baseline text-[0.75em] font-bold leading-none text-primary-700"
     >Products 
     </span>
 </h2>
