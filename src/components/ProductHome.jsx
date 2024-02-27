@@ -3,6 +3,10 @@ import Product2 from '../assets/product2.png';
 import Product02 from '../assets/1.png';
 import Product3 from '../assets/3.png';
 import Product03 from '../assets/product3.png';
+import Product4 from '../assets/product4.png';
+import Product04 from '../assets/4.png';
+import Product5 from '../assets/product5.png';
+import Product05 from '../assets/5.png';
 
 const ProductHome = () => {
   return (
@@ -82,13 +86,13 @@ const ProductHome = () => {
    <a href="#!"> 
       <img
         class="rounded-t-lg"
-        src={Product3}
+        src={Product4}
         alt="" />
     </a>
     <a href="#!">
       <img
         className="rounded-t-lg bg-gray-400"
-        src={Product03}
+        src={Product04}
         alt="Hollywood Sign on The Hill" />
     </a>
    </div>
@@ -96,11 +100,15 @@ const ProductHome = () => {
     <div class="p-6">
       <h5
         class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-        CLUTCH PLATE
+        MOTOR OIL
       </h5>
       <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-        This is a longer card with supporting text below as a natural
-        lead-in to additional content.
+      Advanced Full Synthetic Motor Oil. Helps prevent deposits and sludge build-up to enable long engine life.
+      Excellent overall lubrication and  unsurpassed wear protection performance for many driving styles.
+      Outstanding performance during the maximum oil change interval recommended in a vehicle's owners manual.
+      Helps to extend engine life and reduce stress on starting system components.
+      Controls oil break down to protect for 10,000 miles.
+      Outstanding protection in all operating conditions.
       </p>
     </div>
   </div>
@@ -111,13 +119,13 @@ const ProductHome = () => {
    <a href="#!"> 
       <img
         class="rounded-t-lg"
-        src={Product2}
+        src={Product5}
         alt="" />
     </a>
     <a href="#!">
       <img
         className="rounded-t-lg bg-gray-400"
-        src={Product02}
+        src={Product05}
         alt="Hollywood Sign on The Hill" />
     </a>
    </div>
@@ -125,12 +133,16 @@ const ProductHome = () => {
     <div class="p-6">
       <h5
         class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-        Card title
+        MOTORCYCLE TIRE
       </h5>
       <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-        This is a longer card with supporting text below as a natural
-        lead-in to additional content. This content is a little bit
-        longer.
+      STREET TIRE TREADS OF SUPERIOR QUALITY - Providing a harmonious blend of 
+      traction and control while maintaining longevity. The tread design is crucial, 
+      particularly for rear motorcycle tires. A sufficiently sticky tread compound delivers
+       exceptional traction and control in wet conditions, ensuring reliable performance in rain or snow.
+      FEATURING EFFECTIVE RAIN GROOVES - Engineered for effectiveness, 
+      the deep rain grooves guarantee optimal grip, particularly on wet surfaces. 
+      
       </p>
     </div>
   </div>
