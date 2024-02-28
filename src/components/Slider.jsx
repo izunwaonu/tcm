@@ -41,9 +41,9 @@ const Slider = () => {
               alt="..."
             />
             <div className="absolute inset-x-[15%] bottom-5  py-5 text-center text-white md:block">
-              <h5 className="text-xl">Second slide label</h5>
+              <h5 className="text-xl">We Are Trusted</h5>
               <p>
-              ...leading importer of motorcycle parts and general merchandise.
+              Professional choice in motorcycle spare parts.
               </p>
             </div>
           </TECarouselItem>
@@ -57,9 +57,9 @@ const Slider = () => {
               alt="..."
             />
             <div className="absolute inset-x-[15%] bottom-5 py-5 text-center text-white md:block">
-              <h5 className="text-xl">Third slide label</h5>
+              <h5 className="text-xl">TCM and GIWA</h5>
               <p>
-                Some representative placeholder content for the third slide.
+              Certified and Approved by the Standard organisation of Nigeria(SON).
               </p>
             </div>
           </TECarouselItem>
