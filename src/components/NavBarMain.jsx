@@ -16,8 +16,8 @@ const NavBarMain = () => {
          <input class="hidden" type="checkbox" id="menu-toggle"/>
          
          <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
-            <nav>
-               <ul class="md:flex items-center justify-between text-base text-blue-600 pt-4 md:pt-0">
+            <nav >
+               <ul class="md:flex items-center justify-between text-base text-blue-600 pt-2 md:pt-0">
                   <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#"><img className='w-[128px] h-[42px]' src={Logo2} alt=""/></a></li>
                   <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Home</a></li>
                   <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Products</a></li>
