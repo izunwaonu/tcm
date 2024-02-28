@@ -13,7 +13,8 @@ const ProductHome = () => {
     <>
     <div  className="p-4">
     <h2 
-    data-aos="flip-left"
+    data-aos="fade-up"
+    data-aos-anchor-placement="top-center"
     className=" text-white text-4xl font-medium leading-tight">
     Shop Our 
   <span

@@ -54,7 +54,7 @@ const App = () => {
       <Vision/>
       </div>
     </div>
-    <div className={`bg-slate-900 ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
       <Stats />
       </div>
