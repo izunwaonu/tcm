@@ -13,14 +13,14 @@ const Vision = () => {
      data-aos-easing="linear"
      data-aos-duration="1500"
     className="py-4">
-        <h2 className=" mb-4 px-4 py-3 text-white text-4xl font-medium leading-tight">
+        <h2 className=" mb-4 px-4 py-3 text-slate-950 dark:text-white text-4xl font-medium leading-tight">
         Frequently Asked 
           <span
             className="inline-block whitespace-nowrap rounded-[0.27rem] bg-yellow-600 px-[0.65em] pb-[0.25em] pt-[0.35em] ml-3 text-center align-baseline text-[0.75em] font-bold leading-none text-primary-700"
             >Questions (FAQs)
             </span>
         </h2>
-          <div className="flex flex-wrap justify-between overflow-hidden  text-white">
+          <div className="flex flex-wrap justify-between overflow-hidden  text-slate-950 dark:text-white">
           <label className="grow px-4 py-3 font-medium" for="collapse">
           How can I contact customer support at Teska C. Merchandise Co., Ltd if I have further questions or concerns?
           </label>
@@ -36,7 +36,7 @@ const Vision = () => {
 
           </div>
         </div>
-        <div class="flex flex-wrap justify-between overflow-hidden  text-white">
+        <div class="flex flex-wrap justify-between overflow-hidden  text-slate-950 dark:text-white">
           <label class="grow px-4 py-3 font-medium" for="collapse2">
           Can Teska C. Merchandise Co., Ltd ship internationally?
           </label>
@@ -51,7 +51,7 @@ const Vision = () => {
           options to ensure your order reaches you in a timely manner
             </div>
         </div>
-        <div className="flex flex-wrap justify-between overflow-hidden  text-white">
+        <div className="flex flex-wrap justify-between overflow-hidden  text-slate-950 dark:text-white">
           <label className="grow px-4 py-3 font-medium" for="collapse3">
           Does Teska C. Merchandise Co., Ltd offer any warranties or guarantees on its products?
           </label>
@@ -67,7 +67,7 @@ const Vision = () => {
           and we'll be more than happy to assist you in resolving any concerns.
             </div>
         </div>
-        <div className="flex flex-wrap justify-between overflow-hidden  text-white">
+        <div className="flex flex-wrap justify-between overflow-hidden  text-slate-950 dark:text-white">
           <label className="grow px-4 py-3 font-medium" for="collapse4">
           What should I do if I receive a damaged or defective product from Teska C. Merchandise Co., Ltd? 
           </label>

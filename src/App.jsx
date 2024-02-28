@@ -55,7 +55,7 @@ const App = () => {
       <Stats />
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter}bg-gray-300 dark:bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-gray-300 dark:bg-primary`}>
       <div className={`${styles.boxWidth}`}>
       <Business />    
       </div>

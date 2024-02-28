@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-slate-950 dark:text-white ss:leading-[100.8px] leading-[75px]">
             Over <br className="sm:block hidden" />{" "}
             <span className="text-gradient"> 20 Years</span>{" "}
           </h1>
@@ -25,10 +25,10 @@ const Hero = () => {
           </div> */}
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px]  text-slate-950 dark:text-white ss:leading-[100.8px] leading-[75px] w-full">
           Experience
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5  text-slate-950 dark:text-white`}>
         Teska C. Merchandise Co., Ltd is a leading importer 
         of motorcycle parts and general mechandise. Our goal 
         at TCM is to maintain long-lasting relationshps with 

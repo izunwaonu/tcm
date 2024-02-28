@@ -15,7 +15,7 @@ const ProductHome = () => {
     <h2 
     data-aos="fade-up"
     data-aos-anchor-placement="top-center"
-    className=" text-white text-4xl font-medium leading-tight">
+    className=" text-slate-950 dark:text-white text-4xl font-medium leading-tight">
     Shop Our 
   <span
     className="inline-block whitespace-nowrap rounded-[0.27rem] bg-yellow-600 px-[0.65em] pb-[0.25em] pt-[0.35em] ml-3 text-center align-baseline text-[0.75em] font-bold leading-none text-primary-700"

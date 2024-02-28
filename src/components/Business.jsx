@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+      <h2 className={`${styles.heading2}  dark:text-white text-slate-900`}>
       Our Products  <br className="sm:block hidden" /> & Services
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
