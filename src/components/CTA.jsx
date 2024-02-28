@@ -3,7 +3,10 @@ import Button from "./Button";
 
 const CTA = () => (
   <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
-    <div className="flex-1 flex flex-col">
+    <div 
+    data-aos="fade-up"
+    data-aos-anchor-placement="bottom-center"
+    className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Discover our exceptional products today!</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       From top-quality parts to exceptional customer service, 

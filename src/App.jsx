@@ -59,22 +59,22 @@ const App = () => {
       <Stats />
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
       <Business />    
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
       <div className={`${styles.boxWidth}`}>
       <Testimonials />   
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
       <CTA />   
       </div>
     </div>
-    <div className={`bg-slate-900 ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>     
         <Footer />
       </div>
