@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
 
       <div data-aos="zoom-in"  className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={Log} alt="" className="w-[100%] h-[100%] relative z-[5] rounded-full p-4" />
+        <img src={Log} alt="" className="w-[100%] h-[100%] relative z-[5] shadow-inner rounded-full p-4" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

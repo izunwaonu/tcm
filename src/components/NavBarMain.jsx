@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo2 from "../assets/tcm-logo.png";
+import Logo2 from "../assets/tcm-logo2.png";
 
 
 const NavBarMain = () => {
@@ -18,7 +18,7 @@ const NavBarMain = () => {
          <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
             <nav>
                <ul class="md:flex items-center justify-between text-base text-blue-600 pt-4 md:pt-0">
-                  <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#"><img className='w-[50px] h-[50px]' src={Logo2} alt=""/></a></li>
+                  <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#"><img className='w-[128px] h-[42px]' src={Logo2} alt=""/></a></li>
                   <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Home</a></li>
                   <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Products</a></li>
                   <li><a class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" href="#">About</a></li>
