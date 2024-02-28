@@ -1,5 +1,5 @@
 import styles from "../style";
-import logo from "../assets/tcm-logo.png";
+import logo from "../assets/tcm-logo2.png";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
@@ -8,11 +8,11 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
-          alt="hoobank"
+          alt=""
           className="w-[266px] h-[72.14px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new way to make the payments easy, reliable and secure.
+        ...the leading importer of motorcycle parts and general merchandise.
         </p>
       </div>
 

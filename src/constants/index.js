@@ -72,13 +72,18 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Distributors",
     value: "230+",
   },
   {
     id: "stats-3",
     title: "Quality Products",
     value: "10000+",
+  },
+  {
+    id: "stats-4",
+    title: "Branches",
+    value: "300+",
   },
 ];
 
