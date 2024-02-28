@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Logo2 from "../assets/tcm-logo2.png";
 import {BiPhoneCall, BiSolidSun, BiSolidMoon } from "react-icons/bi";
 
@@ -7,6 +7,17 @@ import {BiPhoneCall, BiSolidSun, BiSolidMoon } from "react-icons/bi";
 
 const NavBarMain = () => {
    const [theme, setTheme] = useState(localStorage.getItem("theme")? localStorage.getItem("theme") : 'light');
+   const element = document.documentElement;
+  
+   useEffect(() => {
+      if(theme==="dark") {
+        element.classList.add('dark');
+        localStorage.setItem("theme", "dark");
+      }else{
+        element.classList.remove('dark');
+        localStorage.removeItem("theme");
+      }
+    },[theme]);
   
   return (
     <>
