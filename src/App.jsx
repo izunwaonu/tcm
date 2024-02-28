@@ -30,27 +30,27 @@ const App = () => {
       <NavBarMain/> 
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-white dark:bg-slate-900`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} mt-[70px] bg-white dark:bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
       <Slider/> 
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-dimWhite dark:bg-primary`}>
       <div className={`${styles.boxWidth}`}>
         <ProductHome/>
       </div>
     </div>
-    <div className={`bg-slate-900 ${styles.flexStart} `}>
+    <div className={`bg-white dark:bg-slate-900 ${styles.flexStart} `}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-dimWhite bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
       <Vision/>
       </div>
     </div>
-    <div className={`bg-slate-900 ${styles.flexStart}`}>
+    <div className={`bg-white dark:bg-slate-900 ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
       <Stats />
       </div>
