@@ -56,7 +56,7 @@ const Slider = () => {
               className="block w-full"
               alt="..."
             />
-            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+            <div className="absolute inset-x-[15%] bottom-5 py-5 text-center text-white md:block">
               <h5 className="text-xl">Third slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.

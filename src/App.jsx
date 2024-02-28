@@ -15,18 +15,19 @@ const App = () => (
     <div className={`${styles.paddingX} ${styles.flexCenter} bg-white`}>
       <div className={`${styles.boxWidth}`}>
       <NavBarMain/> 
-        {/* <Navbar /> */}
+      </div>
+    </div>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+      <div className={`${styles.boxWidth}`}>
+      <Slider/> 
       </div>
     </div>
     <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
-        <Slider/>  
         <ProductHome/>
       </div>
     </div>
-  
-
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-slate-900 ${styles.flexStart} `}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
@@ -36,14 +37,28 @@ const App = () => (
       <Vision/>
       </div>
     </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-slate-900 ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />     
-        <Testimonials />
-        {/* <Clients /> */}
-        <CTA />
+      <Stats />
+      </div>
+    </div>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+      <div className={`${styles.boxWidth}`}>
+      <Business />    
+      </div>
+    </div>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
+      <div className={`${styles.boxWidth}`}>
+      <Testimonials />   
+      </div>
+    </div>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+      <div className={`${styles.boxWidth}`}>
+      <CTA />   
+      </div>
+    </div>
+    <div className={`bg-slate-900 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>     
         <Footer />
       </div>
     </div>
