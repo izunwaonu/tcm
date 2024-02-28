@@ -23,48 +23,42 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Our Mission",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "To provide high-quality motorcycle parts and general merchandise worldwide with exceptional customer service and cost-effective solutions",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Our Vision",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "To be a leading importer known for quality, innovation, and customer satisfaction, shaping the future of motorcycle parts globally.",
   },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
+ 
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "I rely on TCM. for all my motorcycle part needs. Their products are durable, and their service is exceptional.",
+    name: "Matthew Mmaduabuchi",
+    title: "Founder of Oliviabest Group",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Teska C. has earned my trust with their superior products and exceptional service. I highly recommend them to everyone.",
+    name: "Christian Ugwuoke",
+    title: "CEO, Think Well",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "Reliable and efficient! TCM delivers on their promises, providing quality products and exceptional customer service.",
+    name: "Justus Onuh",
     title: "Founder & Leader",
     img: people03,
   },
@@ -83,8 +77,8 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Branches",
-    value: "10+",
+    title: "Quality Products",
+    value: "10000+",
   },
 ];
 

@@ -22,13 +22,15 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+      Our Products  <br className="sm:block hidden" /> & Services
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      We Import and deliver complete motorcycle parts to various machine part markets and dealers nationwide.
+
+We also produce all forms of Adhesives and Gums 
+ranging from superglues to epoxy resins, silicone sealants, 
+contact adhesives, pressure 
+adhesives and different car care units all at affordable market prices.
       </p>
 
       <Button styles={`mt-10`} />
