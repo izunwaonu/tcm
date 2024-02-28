@@ -11,8 +11,10 @@ import Product05 from '../assets/5.png';
 const ProductHome = () => {
   return (
     <>
-    <div className="p-4">
-    <h2 className=" text-white text-4xl font-medium leading-tight">
+    <div  className="p-4">
+    <h2 
+    data-aos="flip-left"
+    className=" text-white text-4xl font-medium leading-tight">
     Shop Our 
   <span
     className="inline-block whitespace-nowrap rounded-[0.27rem] bg-yellow-600 px-[0.65em] pb-[0.25em] pt-[0.35em] ml-3 text-center align-baseline text-[0.75em] font-bold leading-none text-primary-700"
@@ -20,8 +22,9 @@ const ProductHome = () => {
     </span>
 </h2>
     </div>
-<div className="grid-cols-1 sm:grid md:grid-cols-2 ">
-  <div
+<div 
+ className="grid-cols-1 sm:grid md:grid-cols-2 ">
+  <div data-aos="fade-down-right"
     class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
    <div className="flex gap-4 p-4">
    <a href="#!"> 
@@ -53,6 +56,7 @@ const ProductHome = () => {
     </div>
   </div>
   <div
+  data-aos="fade-down-left"
     className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="#!">
     <div className="flex gap-4 p-4">
@@ -88,6 +92,7 @@ const ProductHome = () => {
     </div>
   </div>
   <div
+  data-aos="fade-up-right"
     class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="#!">
     <div className="flex gap-4 p-4">
@@ -121,6 +126,7 @@ const ProductHome = () => {
     </div>
   </div>
   <div
+  data-aos="fade-up-left"
     className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
     <a href="#!">
     <div className="flex gap-4 p-4">

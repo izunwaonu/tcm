@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 import HeroTwo from "./components/HeroTwo";
@@ -8,8 +9,24 @@ import NavBarMain from "./components/NavBarMain";
 import HeroMain from "./components/HeroMain";
 import Vision from "./components/Vision";
 import ProductHome from "./components/ProductHome";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
-const App = () => (
+const App = () => {
+  useEffect(()=>{
+    AOS.init(
+      {
+        offset: 100,
+        duration: 500,
+        easing: "ease-in-sine",
+        delay: 100,
+      }
+    );
+    AOS.refresh();
+  
+  },[])
+  
+  return(
   
   <div className="bg-white w-full overflow-hidden">  
     <div className={`${styles.paddingX} ${styles.flexCenter} bg-white`}>
@@ -27,12 +44,12 @@ const App = () => (
         <ProductHome/>
       </div>
     </div>
-    <div className={`bg-slate-900 ${styles.flexStart} `}>
+    <div className={`bg-primary ${styles.flexStart} `}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-slate-900 ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
       <Vision/>
       </div>
@@ -63,6 +80,6 @@ const App = () => (
       </div>
     </div>
   </div>
-);
+)};
 
 export default App;
