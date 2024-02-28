@@ -35,7 +35,7 @@ const App = () => {
       <Slider/> 
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-dimWhite dark:bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-gray-300 dark:bg-primary`}>
       <div className={`${styles.boxWidth}`}>
         <ProductHome/>
       </div>
@@ -45,7 +45,7 @@ const App = () => {
         <Hero />
       </div>
     </div>
-    <div className={`bg-dimWhite bg-primary ${styles.flexStart}`}>
+    <div className={`bg-gray-300 dark:bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
       <Vision/>
       </div>
@@ -55,17 +55,17 @@ const App = () => {
       <Stats />
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}bg-gray-300 dark:bg-primary`}>
       <div className={`${styles.boxWidth}`}>
       <Business />    
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}bg-white dark:bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
       <Testimonials />   
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}bg-gray-300 dark:bg-primary`}>
       <div className={`${styles.boxWidth}`}>
       <CTA />   
       </div>
