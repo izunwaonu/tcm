@@ -2,8 +2,8 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}",
   "./node_modules/tw-elements-react/dist/js/**/*.js"
-
 ],
+darkMode: "class",
   
   mode: "jit",
   theme: {

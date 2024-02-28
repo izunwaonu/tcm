@@ -25,12 +25,12 @@ const App = () => {
   return(
   
   <div className="bg-white w-full overflow-hidden">  
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary fixed top-0 left-0 sm:w-auto right-0 z-[99] w-full `}>
       <div className={`${styles.boxWidth}`}>
       <NavBarMain/> 
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-white dark:bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
       <Slider/> 
       </div>

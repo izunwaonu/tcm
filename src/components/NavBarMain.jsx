@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import styles from "../style";
 import Logo2 from "../assets/tcm-logo2.png";
 import {BiPhoneCall, BiSolidSun, BiSolidMoon } from "react-icons/bi";
 
@@ -20,16 +21,16 @@ const NavBarMain = () => {
     },[theme]);
   
   return (
-    <>
-    <nav id="header" class="w-full z-30 top-10 py-1 bg-primary shadow-lg border-b border-yellow-600 mt-2">
-      <div class="w-full flex items-center justify-between mt-0 px-6 py-2">
+    <header className=''>
+    <nav  id="header" className=" flex items-center justify-between h-[70px]  bg-primary shadow-lg border-b border-yellow-600 ">
+      <div className="w-full flex items-center justify-between mt-0 px-6 py-2">
          <label for="menu-toggle" class="cursor-pointer md:hidden block">
-            <svg class="fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <svg className="fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                <title>menu</title>
                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
             </svg>
          </label>
-         <input class="hidden" type="checkbox" id="menu-toggle"/>
+         <input className="hidden" type="checkbox" id="menu-toggle"/>
          
          <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
             <nav  className='flex items-center'>
@@ -88,7 +89,7 @@ const NavBarMain = () => {
          </div>
       </div>
    </nav>
-    </>
+    </header>
   )
 }
 
