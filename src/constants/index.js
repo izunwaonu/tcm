@@ -51,7 +51,7 @@ export const feedback = [
     content:
       "Teska C. has earned my trust with their superior products and exceptional service. I highly recommend them to everyone.",
     name: "Christian Ugwuoke",
-    title: "CEO, Think Well",
+    title: "CEO, Think Well Supper Market",
     img: people02,
   },
   {
