@@ -34,7 +34,18 @@ const NavBarMain = () => {
                   <li><a className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Contact Us</a>
                   </li>
                   <li>
-                  <a class="bg-yellow-700 text-gray-200  p-2 rounded  hover:bg-yellow-500 hover:text-gray-100">Get Quote</a>
+                     <div className='flex gap-4'>
+                        <div className='flex items-center '>
+                              <div>
+                                 <BiPhoneCall className="text-2xl h-[40px] w-[40px] rounded-md p-2 text-white bg-primary hover:bg-primary/90"/>
+                              </div>
+                              <div>
+                                 <p className=' text-white'>Call us on</p>
+                                 <p className=' text-white'><a href='tell: +2348030886778'> +2348030886778</a> </p>  
+                              </div>
+                        </div>
+                        <a class="bg-yellow-700 text-gray-200  p-2 rounded  hover:bg-yellow-500 hover:text-gray-100">Get Quote</a>
+                     </div>
                   </li>
                   
                </ul>
@@ -45,19 +56,11 @@ const NavBarMain = () => {
          <div class="order-2 md:order-3 flex flex-wrap items-center justify-end mr-0 md:mr-4" id="nav-content">
             <div class="auth flex items-center w-full md:w-full gap-4">
    {/* Phone Contact in the Menu */}
-         <div className='flex items-center gap-4'>
-                  <div>
-                  <BiPhoneCall className="text-2xl h-[40px] w-[40px] rounded-md p-2 text-white bg-primary hover:bg-primary/90"/>
-                  </div>
-                  <div>
-                  <p className=' text-white'>Call us on</p>
-                  <p className=' text-white'><a href='tell: +2348030886778'> +2348030886778</a> </p>  
-                  </div>
-          </div>
+         
                {/* Changing of Theme */}
           <div>
           {
-            theme==='dark' ?(
+            theme==='dark' ? (
               <BiSolidSun 
               className='text-2xl text-white' 
               onClick={()=> 
