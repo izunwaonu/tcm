@@ -8,10 +8,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
+      <h4 className="font-poppins font-semibold dark:text-white text-slate-900 text-[18px] leading-[23.4px] mb-1">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal dark:text-white text-slate-900 text-[16px] leading-[24px]">
         {content}
       </p>
     </div>
@@ -24,21 +24,21 @@ const Business = () =>  (
       <h2 className={`${styles.heading2}  dark:text-white text-slate-900`}>
       Our Products  <br className="sm:block hidden" /> & Services
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5  dark:text-white text-slate-900`}>
       We Import and deliver complete motorcycle parts to various machine part markets and dealers nationwide.
 
-We also produce all forms of Adhesives and Gums 
-ranging from superglues to epoxy resins, silicone sealants, 
-contact adhesives, pressure 
-adhesives and different car care units all at affordable market prices.
+        We also produce all forms of Adhesives and Gums 
+        ranging from superglues to epoxy resins, silicone sealants, 
+        contact adhesives, pressure 
+        adhesives and different car care units all at affordable market prices.
       </p>
 
       <Button styles={`mt-10`} />
     </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.sectionImg} flex-col `}>
       {features.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
+        <FeatureCard className=" dark:text-white text-slate-900" key={feature.id} {...feature} index={index}  />
       ))}
     </div>
   </section>
