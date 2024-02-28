@@ -1,12 +1,8 @@
 import { useEffect } from "react";
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
-import HeroTwo from "./components/HeroTwo";
+import {Business, CTA, Footer, Stats, Testimonials, Hero } from "./components";
 import Slider from "./components/Slider";
-import Locations from "./components/Locations";
-// import HomeSlider from "./components/HomeSlider";
 import NavBarMain from "./components/NavBarMain";
-import HeroMain from "./components/HeroMain";
 import Vision from "./components/Vision";
 import ProductHome from "./components/ProductHome";
 import "aos/dist/aos.css";
@@ -29,22 +25,22 @@ const App = () => {
   return(
   
   <div className="bg-white w-full overflow-hidden">  
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-white`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
       <div className={`${styles.boxWidth}`}>
       <NavBarMain/> 
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
       <Slider/> 
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-900`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
       <div className={`${styles.boxWidth}`}>
         <ProductHome/>
       </div>
     </div>
-    <div className={`bg-primary ${styles.flexStart} `}>
+    <div className={`bg-slate-900 ${styles.flexStart} `}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
