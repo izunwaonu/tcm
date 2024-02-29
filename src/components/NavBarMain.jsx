@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from "../style";
 import Logo2 from "../assets/tcm-logo2.png";
 import {BiPhoneCall, BiSolidSun, BiSolidMoon } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 
 
 
@@ -39,11 +40,11 @@ const NavBarMain = () => {
                </a>
             </div>
                <ul className="md:flex items-center justify-end text-base text-white pt-2 md:pt-0">
-                  
-                  <li><a className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Home</a></li>
-                  <li><a className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Products</a></li>
-                  <li><a className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" href="#">About</a></li>
-                  <li><a className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" href="#">Contact Us</a>
+                 
+                  <li><Link className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" to="/">Home</Link></li>
+                  <li><Link className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" to="/product">Products</Link></li>
+                  <li><Link className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" to="/about">About</Link></li>
+                  <li><Link className="inline-block no-underline hover:text-yellow-600 font-medium text-lg py-2 px-4 lg:-ml-2" to="/contact">Contact Us</Link>
                   </li>
                   <li>
                      <div className='flex gap-4'>
