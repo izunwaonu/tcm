@@ -3,13 +3,17 @@ import styles from "../style";
 import Logo2 from "../assets/tcm-logo2.png";
 import {BiPhoneCall, BiSolidSun, BiSolidMoon } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import {HiMenuAlt1, HiMenuAlt3} from "react-icons/hi";
+import NavBarResponsive from './NavBarResponsive';
 
 
 
 
 const NavBarMain = () => {
    const [theme, setTheme] = useState(localStorage.getItem("theme")? localStorage.getItem("theme") : 'light');
+   const [showMenu, setShowMenu] = useState('false')
    const element = document.documentElement;
+   
   
    useEffect(() => {
       if(theme==="dark") {
@@ -20,17 +24,25 @@ const NavBarMain = () => {
         localStorage.removeItem("theme");
       }
     },[theme]);
+
+    const toggleMenu = ()=>{
+      setShowMenu(!showMenu);
+    }
   
   return (
     <header className=''>
     <nav  id="header" className=" flex items-center justify-between h-[70px]  bg-primary shadow-lg border-b border-yellow-600 ">
       <div className="w-full flex items-center justify-between mt-0 px-6 py-2">
-         <label for="menu-toggle" class="cursor-pointer md:hidden block">
+                               {/* Mobile menu Header */}
+
+    <NavBarResponsive showMenu={showMenu}/>
+
+         {/* <label for="menu-toggle" class="cursor-pointer md:hidden block">
             <svg className="fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                <title>menu</title>
                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
             </svg>
-         </label>
+         </label> */}
          <input className="hidden" type="checkbox" id="menu-toggle"/>
          
          <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
@@ -62,6 +74,24 @@ const NavBarMain = () => {
                   </li>
                   
                </ul>
+                      {/* Mobile menu Header */}
+       {/* <div className="flex items-center gap-4 ">
+       
+          {
+            showMenu? 
+            <HiMenuAlt1
+            
+            onClick={toggleMenu}
+            className='cursor-pointer text-white transition-all'
+            size={30}
+            />: 
+            <HiMenuAlt3
+            onClick={toggleMenu}
+            className='cursor-pointer text-white transition-all'
+            size={30}
+            />
+          }
+       </div> */}
 
             </nav>
          </div>
@@ -86,10 +116,29 @@ const NavBarMain = () => {
             )
           }  
           </div>
+          
             </div>
          </div>
       </div>
+      <div className="items-center cursor-pointer md:hidden block gap-4 ">
+       
+       {
+         showMenu? 
+         <HiMenuAlt1
+         
+         onClick={toggleMenu}
+         className='cursor-pointer text-white transition-all'
+         size={30}
+         />: 
+         <HiMenuAlt3
+         onClick={toggleMenu}
+         className='cursor-pointer text-white transition-all'
+         size={30}
+         />
+       }
+      </div>
    </nav>
+   
     </header>
   )
 }
